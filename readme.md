@@ -1,6 +1,10 @@
 # Nankai Screensaver
 
-A text-based screensaver that runs in your terminal.
+A screensaver built around [this Ruby script](https://github.com/mame/sonny-boy-nankai) from the anime series [Sonny Boy](https://anime.shochiku.co.jp/sonny-boy/).
+
+Credit to Yusuke Endoh for the actual Ruby code.
+
+> "Nankai" ([難解](https://jisho.org/word/%E9%9B%A3%E8%A7%A3)) means "difficult to solve"
 
 ## How to install
 
