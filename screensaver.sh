@@ -4,7 +4,7 @@ while true; do
 
     while true; do
         IDLE_TIME=$(dbus-send --print-reply --dest=org.gnome.Mutter.IdleMonitor /org/gnome/Mutter/IdleMonitor/Core org.gnome.Mutter.IdleMonitor.GetIdletime | awk 'END{print $NF}')
-        if [[ $IDLE_TIME -ge ${2:-60000} ]]; then
+        if [[ $IDLE_TIME -ge $((${2:-300} * 1000)) ]]; then
             break
         fi
         sleep 1
