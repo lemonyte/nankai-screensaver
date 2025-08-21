@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Nankai Screensaver
+Exec=/path/to/screensaver.sh /path/to/nankai_loop.sh
+Icon=system-run
+StartupWMClass=nankai-screensaver
+Comment=A terminal screensaver
+Categories=Utility;
